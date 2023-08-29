@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Saver</title>
+    <style>
+        #outputParagraph{
+            display: none;
+        }
+       
+    </style>
+</head>
+<body>
+    <input type="text" id="firstName" placeholder="first Name"><br><br>
+    <input type="text" id="lastName" placeholder="last Name"><br><br>
+    <input type="text" id="number" placeholder="mobile number" maxlength="11"><br><br>
+    <input type="text" id="cnic" placeholder="CNIC" maxlength="13"><br><br>
+    <button onclick="saveData()">Save</button>
+    <p id="outputParagraph"></p>
+    
+    <script src="app.js"></script>
+</body>
+</html>
